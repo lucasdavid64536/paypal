@@ -165,7 +165,6 @@ async def say(ctx, *, message):
 
 
 @bot.command()
-@commands.has_permissions(Administrator=True)
 async def mass(ctx, *, message):
     async def maybe_send(member):
         try:
